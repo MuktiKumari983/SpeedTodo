@@ -23,5 +23,11 @@ A streamlined, premium tracking application engineered for high-performance stud
 ---
 
 
-git clone [https://github.com/YOUR_GITHUB_USERNAME/SpeedTodo.git](https://github.com/YOUR_GITHUB_USERNAME/SpeedTodo.git)
+##  Getting Started & Installation
+
+Follow these instructions to run the workspace framework tracking matrix on your local architecture environment:
+
+### 1. Clone the Repository
+```bash
+git clone [https://github.com/MuktiKumari983/SpeedTodo.git](https://github.com/MuktiKumari983/SpeedTodo.git)
 cd SpeedTodo
