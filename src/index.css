@@ -1,0 +1,73 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght=0,600;0,700;1,400&display=swap');
+
+:root {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.font-serif-cozy {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+/* Custom Soft Heatmap Grid Colors to match the Pink/Cream Aesthetic */
+.react-calendar-heatmap .color-empty { fill: rgba(255, 255, 255, 0.4); }
+.react-calendar-heatmap .color-scale-1 { fill: #fecdd3; }
+.react-calendar-heatmap .color-scale-2 { fill: #fda4af; }
+.react-calendar-heatmap .color-scale-3 { fill: #f43f5e; }
+.react-calendar-heatmap .color-scale-4 { fill: #be123c; }
+
+/* Rounded corners for heatmap squares */
+.react-calendar-heatmap rect {
+  rx: 5px;
+  ry: 5px;
+  transition: all 0.2s ease;
+}
+
+.react-calendar-heatmap rect:hover {
+  stroke: #fda4af;
+  stroke-width: 1.5px;
+  transform: scale(1.08);
+  transform-origin: center;
+}
+
+/* Slow Fluid Motion for the Aesthetic Orb Spheres */
+@keyframes floatOrbOne {
+  0%, 100% { transform: translate(0px, 0px) scale(1); }
+  50% { transform: translate(40px, -60px) scale(1.15); }
+}
+
+@keyframes floatOrbTwo {
+  0%, 100% { transform: translate(0px, 0px) scale(1.1); }
+  50% { transform: translate(-50px, 40px) scale(0.9); }
+}
+
+.animate-orb-1 {
+  animation: floatOrbOne 25s ease-in-out infinite;
+}
+
+.animate-orb-2 {
+  animation: floatOrbTwo 20s ease-in-out infinite;
+}
+
+/* Elegant Fine Grid Mesh Overlay Line Effect */
+.bg-mesh-grid {
+  background-size: 32px 32px;
+  background-image: 
+    linear-gradient(to right, rgba(251, 113, 133, 0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(251, 113, 133, 0.04) 1px, transparent 1px);
+}
+
+/* Smooth hidden scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(226, 222, 219, 0.6);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #fda4af;
+}
