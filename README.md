@@ -1,16 +1,32 @@
-# React + Vite
+# SpeedTodo — Productivity & Focus Grid
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A streamlined, premium tracking application engineered for high-performance students and professionals to manage academic milestones, data analysis, and technical prep within a single cohesive dashboard interface. 
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+* **Dynamic Focus Checklist:** Append, modify, track, and cycle through key objectives with real-time state persistence.
+* **Consistency Chart Matrix:** Interactive activity heatmap tracker driven by completed task data to visualize performance over a rolling 4-month timeline.
+* **Granular Data Organization:** Categorize milestones natively across categories like *Study*, *Placement Prep*, *SQL*, *Personal*, and *Shopping*.
+* **Universal Workspace Audio Widget:** Integrated media platform embed system supporting dynamic link conversion for Spotify, YouTube, and SoundCloud configurations.
+* **Optimized UI Design:** Glassmorphism overlay panels with responsive drawer styling, full system-integrated viewport containment, and custom emerald/stone color-blocked layout structures.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Tech Stack & Dependencies
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* **Frontend Library:** React.js (Functional components, state hooks, lifecycle controls)
+* **Styling Framework:** Tailwind CSS (JIT engine, backdrop glass filtering utilities)
+* **Visualization Suite:** `react-calendar-heatmap` (SVG matrix grid mapping data counts)
+
+---
+
+## Getting Started & Installation
+
+Follow these instructions to run the workspace framework tracking matrix on your local architecture environment:
+
+### 1. Clone the Repository
+```bash
+git clone [https://github.com/YOUR_GITHUB_USERNAME/SpeedTodo.git](https://github.com/YOUR_GITHUB_USERNAME/SpeedTodo.git)
+cd SpeedTodo
